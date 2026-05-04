@@ -10,6 +10,24 @@ Monte Carlo option pricing using classical vs quantum random number generators, 
 - **BUSINESS REQUIREMENT SPECIFICATION.docx** — Full background, methodology, and traceability
 - **/src** — Source code and test scripts
 
+## 📂 Repository Structure
+
+quantum-option-pricing/
+├── README.md
+├── SPEC.md
+├── IMPLEMENTATION.docx
+├── BUSINESS REQUIREMENT SPECIFICATION.docx
+└── src/
+    ├── main.py
+    ├── monte_carlo.py
+    ├── quantum_rng.py
+    ├── visualization.py
+    ├── visualization_classical.py
+    ├── visualization_quantum.py
+    └── tests/
+        └── test_suite.py
+
+
 ## 🚀 Features
 - Classical Monte Carlo simulation for option pricing
 - Quantum random number generator integration
